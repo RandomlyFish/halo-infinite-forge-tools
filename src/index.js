@@ -2,92 +2,23 @@ import fs from "fs";
 import { facesToForgeObjects } from "./facesToForgeObjects.js";
 import { AutoHotKeyUtil } from "./autoHotKeyUtil.js";
 import { readObj } from "./readObj.js";
+import { config } from "./config.js";
 
-let argList = process.argv.slice(2);
-let args = {}
-for (let arg of argList) {
+let commandLineArgumentsList = process.argv.slice(2);
+let commandLineArguments = {}
+for (let arg of commandLineArgumentsList) {
     let key = arg.split("=")[0];
     let value = arg.split("=")[1];
-    args[key] = value;
+    commandLineArguments[key] = value;
 }
 
-if (args.model === undefined) {
+if (commandLineArguments.model === undefined) {
     console.log("Unable to run script, no model file name was provided");
     console.log("For example: 'npm start model=test' will use a file called test.obj in the input folder");
     process.exit(1);
 }
 
-let actionTree = {
-    enterKeys: [],
-    executeKeys: [],
-    exitKeys: [],
-    menu: {
-        enterKeys: ["BackSpace", "BackSpace", "r", "PgUp"],
-        executeKeys: [],
-        exitKeys: ["BackSpace", "BackSpace"],
-        spawnPrimitiveBlock: {
-            enterKeys: ["w", "w", "w", "Enter", "s", "Enter", "s"],
-            executeKeys: ["Enter", "r"],
-            exitKeys: ["PgUp", "Escape", "w", "Enter", "PgUp"]
-        },
-        spawnPolygon: {
-            enterKeys: ["PgDn", "w", "w", "w", "w", "Enter", "PgDn", "PgDn", "PgDn", "PgUp", "Enter"],
-            executeKeys: ["Enter", "r"],
-            exitKeys: ["Escape", "PgUp", "s", "s", "s", "s", "Enter", "PgUp"]
-        },
-        objectProperties: {
-            enterKeys: ["e", "PgUp"],
-            executeKeys: [],
-            exitKeys: ["q"],
-            move: {
-                enterKeys: ["PgDn", "w", "w", "w", "w"],
-                executeKeys: ["Enter", "{2}", "Enter", "w", "Enter", "{1}", "Enter", "w", "Enter", "{0}", "Enter", "s", "s"],
-                exitKeys: ["PgUp"]
-            },
-            rotate: {
-                enterKeys: ["PgDn", "w", "w"],
-                executeKeys: ["Enter", "{2}", "Enter", "s", "Enter", "{0}", "Enter", "s", "Enter", "{1}", "Enter", "w", "w"],
-                exitKeys: ["PgUp"]
-            },
-            resize: {
-                enterKeys: ["s", "s", "s", "s"],
-                executeKeys: ["Enter", "{0}", "Enter", "s", "Enter", "{1}", "Enter", "s", "Enter", "{2}", "Enter", "w", "w"],
-                exitKeys: ["PgUp"]
-            },
-            resizeXY: {
-                enterKeys: ["s", "s", "s", "s"],
-                executeKeys: ["Enter", "{0}", "Enter", "s", "Enter", "{1}", "Enter", "w"],
-                exitKeys: ["PgUp"]
-            },
-            transform: {
-                enterKeys: [],
-                executeKeys: [
-                    "s", "s", "s", "s", // Go down to size X
-                    "Enter", "{6}", "Enter", "s", "Enter", "{7}", "Enter", // Enter size (skipping Z)
-                    "s", "s", "s", "s", "s", // Go down to position X
-                    "Enter", "{0}", "Enter", "s", "Enter", "{1}", "Enter", "s", "Enter", "{2}", "Enter", // Enter position
-                    "s", "s", // Go down to rotation Yaw
-                    // "Enter", "{5}", "Enter", "s", "Enter", "{3}", "Enter", "s", "Enter", "{4}", "Enter", // Enter rotation
-                    "Enter", "{5}", "Enter", "s", "Enter", "{4}", "Enter", "s", "Enter", "{3}", "Enter", // Enter rotation
-                    "PgUp" // Go back to top
-                ],
-                exitKeys: []
-            },
-            duplicate: {
-                enterKeys: ["Escape"],
-                executeKeys: ["Ctrl+d"],
-                exitKeys: ["r", "PgUp"],
-            }
-        }
-    },
-    focusObject: {
-        enterKeys: [],
-        executeKeys: ["f"],
-        exitKeys: []
-    }
-}
-
-let modelPath = "input/" + args.model.split(".")[0] + ".obj";
+let modelPath = "input/" + commandLineArguments.model.split(".")[0] + ".obj";
 let fileExists = fs.existsSync(modelPath, "utf8");
 
 if (fileExists === false) {
@@ -134,7 +65,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 fileData += AutoHotKeyUtil.openWindow("Halo Infinite");
 fileData += AutoHotKeyUtil.sleep(1000);
 
-let currentPathActions = [actionTree];
+let currentPathActions = [config.actionTree];
 let currentPathNames = ["actionTree"];
 
 for (let i = 0; i < instructions.length; i++) {
@@ -159,7 +90,7 @@ for (let i = 0; i < instructions.length; i++) {
     while (actionNames.includes(currentPathNames[currentPathNames.length - 1]) === false) {
         currentPathNames.pop();
         let action = currentPathActions.pop();
-        fileData += AutoHotKeyUtil.pressKeySequence(action.exitKeys);
+        fileData += AutoHotKeyUtil.pressKeySequence(action.exitKeys, config.keyToDelayMap);
     }
 
     if (actionNames.length > currentPathActions.length) {
@@ -167,13 +98,13 @@ for (let i = 0; i < instructions.length; i++) {
             let actionName = actionNames[i];
             let lastInPath = currentPathActions[currentPathActions.length - 1];
             let action = lastInPath[actionName];
-            fileData += AutoHotKeyUtil.pressKeySequence(action.enterKeys);
+            fileData += AutoHotKeyUtil.pressKeySequence(action.enterKeys, config.keyToDelayMap);
             currentPathActions.push(action);
             currentPathNames.push(actionName);
         }
     }
 
-    fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, args);
+    fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, config.keyToDelayMap, args);
 }
 
 fs.writeFileSync("output/macro.ahk", fileData);

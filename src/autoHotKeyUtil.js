@@ -87,9 +87,8 @@ export class AutoHotKeyUtil {
         return output;
     }
 
-    // TODO: Move to the file that grabs the model faces and generates all the commands. Alternatively, make keyToDelayMap an argument
     /** 
-     * Generates commands for a sequence of keys, where there's a different delay after each key press depending on what the key does in the game.
+     * Generates commands for a sequence of keys, where there's a different delay after each key press
      * 
      * @param {string[]} keys array of keys.
      * 
@@ -105,24 +104,12 @@ export class AutoHotKeyUtil {
      * 'Ctrl+v' (press both Ctrl and v), 
      * '{0}' (reference the first argument and type it out)
      * 
+     * @param {Object.<string, number>} keyToDelayMap
      * @param {string[]} args array of custom arguments that will replace keys. 
      * 
      * For example: if a key is set as '{0}', it will use the first argument.
      */
-    static pressKeySequence(keys, args = []) {
-        let keyToDelayMap = {
-            "Enter": 50,
-            "Ctrl+d": 50,
-            "r": 50,
-            "PgUp": 1,
-            "PgDn": 1,
-            "q": 10,
-            "e": 10,
-            "w": 1,
-            "s": 1,
-            "Escape": 50
-        }
-
+    static pressKeySequence(keys, keyToDelayMap, args = []) {
         let output = "";
 
         for (let i = 0; i < keys.length; i++) {
