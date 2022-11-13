@@ -40,6 +40,6 @@ In the 'src' folder, you will find 'config.js'. In that file, look for 'keyToDel
 Once you have made changes, you will have to generate the macro again.
 
 ## Known issues
-* The time between key presses can sometimes be too short, causing unintended interactions in the forge menu
+* The time between key presses can sometimes be too short, causing unintended interactions in the forge menu. However, it can be configured
 * It currently doesn't work with model faces that uses more than 3 vertices
 * Due to the minimum size limit of objects, it can't create triangles smaller than 0.5 in game units
