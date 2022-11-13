@@ -1,0 +1,10 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Shape_192
+Ka 0.000000 0.000000 0.000000
+Kd 0.745098 0.247059 0.054902
+Ks 0.330000 0.330000 0.330000
+map_Kd castle_roof/Shape_192.png
+
