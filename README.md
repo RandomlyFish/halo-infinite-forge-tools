@@ -29,6 +29,9 @@ If done correctly, the scrollbar should be at the top of the 'object properties'
 
 By the time the macro is done, the forge menu will be reset to the correct state. So, unless you interact with the menu after it's done, you won't have to repeat step 1-3.
 
+## How to stop the macro
+On the bottom right of the windows taskbar, in the popup menu left of the volume icon, you should see the AutoHotKey icon. Right click it and select Exit. Don't forget to reset the forge menu if you plan to run it again.
+
 ## Known issues
 * The time between key presses can sometimes be too short, causing unintended interactions in the forge menu
 * It currently doesn't work with model faces that uses more than 3 vertices

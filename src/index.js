@@ -149,7 +149,7 @@ for (let i = 0; i < instructions.length; i++) {
         args = argsString.split(",");
     }
 
-    if (instruction.startsWith("wait(")) {
+    if (instruction.startsWith("wait")) {
         fileData += AutoHotKeyUtil.sleep(args[0]);
         continue;
     }
