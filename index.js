@@ -1,7 +1,15 @@
 import fs from "fs";
 import { facesToForgeObjects } from "./facesToForgeObjects.js";
-import { GenerateAHK } from "./generateAHK.js";
+import { AutoHotKeyUtil } from "./autoHotKeyUtil.js";
 import { readObj } from "./readObj.js";
+
+let argList = process.argv.slice(2);
+let args = {}
+for (let arg of argList) {
+    let key = arg.split("=")[0];
+    let value = arg.split("=")[1];
+    args[key] = value;
+}
 
 let actionTree = {
     enterKeys: [],
@@ -113,7 +121,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 `;
 
-fileData += GenerateAHK.sleep(3000);
+fileData += AutoHotKeyUtil.sleep(3000);
 
 let currentPathActions = [actionTree];
 let currentPathNames = ["actionTree"];
@@ -135,7 +143,7 @@ for (let i = 0; i < instructions.length; i++) {
     while (actionNames.includes(currentPathNames[currentPathNames.length - 1]) === false) {
         currentPathNames.pop();
         let action = currentPathActions.pop();
-        fileData += GenerateAHK.pressKeySequence(action.exitKeys);
+        fileData += AutoHotKeyUtil.pressKeySequence(action.exitKeys);
     }
 
     if (actionNames.length > currentPathActions.length) {
@@ -143,13 +151,13 @@ for (let i = 0; i < instructions.length; i++) {
             let actionName = actionNames[i];
             let lastInPath = currentPathActions[currentPathActions.length - 1];
             let action = lastInPath[actionName];
-            fileData += GenerateAHK.pressKeySequence(action.enterKeys);
+            fileData += AutoHotKeyUtil.pressKeySequence(action.enterKeys);
             currentPathActions.push(action);
             currentPathNames.push(actionName);
         }
     }
 
-    fileData += GenerateAHK.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, executeKeyArgs);
+    fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, executeKeyArgs);
 }
 
 fs.writeFileSync("./test.ahk", fileData);

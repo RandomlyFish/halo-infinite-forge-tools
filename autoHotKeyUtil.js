@@ -1,8 +1,19 @@
-export class GenerateAHK {
+export class AutoHotKeyUtil {
+
+    /**
+     * Generates a command which delays the following commands
+     * 
+     * @param {number} ms 
+     */
     static sleep(ms) {
         return "\n" + "Sleep, " + ms + "\n\n";
     }
 
+    /**
+     * Generates commands to press and release a given key
+     * 
+     * @param {string} key 
+     */
     static pressKey(key, { times = 1, endDelay = 1 } = {}) {
         let output = "";
 
@@ -18,6 +29,11 @@ export class GenerateAHK {
         return output;
     }
 
+    /**
+     * Generates commands to press and release multiple keys at the same time
+     * 
+     * @param {string[]} keys
+     */
     static pressKeyCombination(keys, { times = 1, endDelay = 1 } = {}) {
         let output = "";
 
@@ -40,6 +56,11 @@ export class GenerateAHK {
         return output;
     }
 
+    /**
+     * Generates commands that will enter each character in a string, one by one
+     * 
+     * @param {string} string 
+     */
     static type(string, { endDelay = 1 } = {}) {
         let output = "";
 
@@ -57,9 +78,27 @@ export class GenerateAHK {
         return output;
     }
 
+    // TODO: Move to the file that grabs the model faces and generates all the commands. Alternatively, make keyToDelayMap an argument
     /** 
-     * @param {string[]} keys array of keys, if the key includes a colon and a number, then the value after the colon is the delay. For example: Enter:100 which adds a 100ms delay after the key press 
-     * @param {string[]} args array of custom arguments that will replace keys. For example: the key {0}, will use the first argument
+     * Generates commands for a sequence of keys, where there's a different delay after each key press depending on what the key does in the game.
+     * 
+     * @param {string[]} keys array of keys.
+     * 
+     * If a key includes a colon ':' followed by a number, then the value after the colon is the delay. For example: Enter:100 which adds a 100ms delay after the key press 
+     * 
+     * If a key includes a plus sign '+' followed by another key, it's then treated as a key combination. For example: Ctrl+v will make it press both Ctrl and v at the same time
+     * 
+     * If a key is set as curly braces '{}' with a number inbetween, it will reference an argument from args, corresponding to the index between the brackets.
+     * It will then input each of the characters from the argument string, one by one.
+     * 
+     * For example: 
+     * 'v:100' (wait 100 miliseconds after release), 
+     * 'Ctrl+v' (press both Ctrl and v), 
+     * '{0}' (reference the first argument and type it out)
+     * 
+     * @param {string[]} args array of custom arguments that will replace keys. 
+     * 
+     * For example: if a key is set as '{0}', it will use the first argument.
      */
     static pressKeySequence(keys, args = []) {
         let keyToDelayMap = {
