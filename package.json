@@ -1,10 +1,10 @@
 {
-  "name": "obj-to-objects",
+  "name": "halo-infinite-forge-tools",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node src/index"
   },
   "author": "",
   "license": "ISC",

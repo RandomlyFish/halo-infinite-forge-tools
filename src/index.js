@@ -11,6 +11,12 @@ for (let arg of argList) {
     args[key] = value;
 }
 
+if (args.model === undefined) {
+    console.log("Unable to run script, no model file name was provided");
+    console.log("For example: 'npm start model=test' will use a file called test.obj in the input folder");
+    process.exit(1);
+}
+
 let actionTree = {
     enterKeys: [],
     executeKeys: [],
@@ -81,13 +87,19 @@ let actionTree = {
     }
 }
 
-let faces = readObj("model_files/bump.obj");
-// console.log(faces);
+let modelPath = "input/" + args.model.split(".")[0] + ".obj";
+let fileExists = fs.existsSync(modelPath, "utf8");
+
+if (fileExists === false) {
+    console.log("Unable to run script, the model file: " + modelPath + " doesn't exist");
+    process.exit(1);
+}
+
+let faces = readObj(modelPath);
 console.log("Total faces:", faces.length);
 let objects = facesToForgeObjects(faces);
-// console.log(objects);
 console.log("Total objects:", objects.length);
-console.log("Estimated time to build (minutes):", (objects.length * 5) / 60)
+console.log("Estimated time to build (minutes):", (objects.length * 5) / 60);
 
 let instructions = [];
 
@@ -111,8 +123,6 @@ for (let i = 0; i < objects.length; i++) {
 }
 
 instructions.push("actionTree");
-
-console.log(performance.now());
 
 let fileData = `
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
@@ -160,4 +170,6 @@ for (let i = 0; i < instructions.length; i++) {
     fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, executeKeyArgs);
 }
 
-fs.writeFileSync("./test.ahk", fileData);
+fs.writeFileSync("output/macro.ahk", fileData);
+
+console.log("AutoHotKey macro file saved to: 'output/macro.ahk'");
