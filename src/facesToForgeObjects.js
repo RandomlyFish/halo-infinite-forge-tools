@@ -65,6 +65,28 @@ const getFaceGameSize = (face, vertexIndex) => {
     });
 }
 
+/** @param {Face[]} faces */
+const getCubeGameSize = (faces) => {
+    let previousVertex = getElementAtIndex(faces[0].vertices, -1);
+    let nextVertex = getElementAtIndex(faces[0].vertices, 1);
+
+    let oppositeFace = faces.find(otherFace => {
+        let sharedVertexIndexes = faces[0].vertexIndexes.filter(index => {
+            return otherFace.vertexIndexes.includes(index);
+        });
+        return sharedVertexIndexes.length === 0;
+    });
+
+    let faceCenter = MathUtil.averageVector(faces[0].vertices);
+    let oppositeFaceCenter = MathUtil.averageVector(oppositeFace.vertices);
+
+    return convertToGameSize({
+        x: MathUtil.getDistanceBetweenVectors(faces[0].vertices[0], previousVertex),
+        y: MathUtil.getDistanceBetweenVectors(faceCenter, oppositeFaceCenter),
+        z: MathUtil.getDistanceBetweenVectors(faces[0].vertices[0], nextVertex)
+    });
+}
+
 const scaleMultiplier = 3;
 
 /**
@@ -111,6 +133,7 @@ const getRightAngledQuad = (face1, face2) => {
     let face1PreviousVertex = getElementAtIndex(face1.vertices, face1UniqueVertexIndex - 1);
     let face1NextVertex = getElementAtIndex(face1.vertices, face1UniqueVertexIndex + 1);
     let face1CornerAngle = MathUtil.getCornerAngle(face1PreviousVertex, face1.vertices[face1UniqueVertexIndex], face1NextVertex);
+    face1CornerAngle = Math.round(face1CornerAngle.toFixed(2));
 
     if (face1CornerAngle !== 90) {
         return undefined;
@@ -120,6 +143,7 @@ const getRightAngledQuad = (face1, face2) => {
     let face2PreviousVertex = getElementAtIndex(face2.vertices, face2UniqueVertexIndex - 1);
     let face2NextVertex = getElementAtIndex(face2.vertices, face2UniqueVertexIndex + 1);
     let face2CornerAngle = MathUtil.getCornerAngle(face2PreviousVertex, face2.vertices[face2UniqueVertexIndex], face2NextVertex);
+    face2CornerAngle = Math.round(face1CornerAngle.toFixed(2));
 
     if (face2CornerAngle !== 90) {
         return undefined;
@@ -157,25 +181,80 @@ export const facesToForgeObjects = (faces, forceRightSided = false) => {
     let objects = [];
 
     let quads = [];
+    let quadFaces = [];
     for (let i = 0; i < faces.length; i++) {
         let quadFace1 = faces[i];
         let quadFace2 = quadFace1;
-        let foundQuad = false;
         for (let j = i + 1; j < faces.length; j++) {
             quadFace2 = faces[j];
             let quad = getRightAngledQuad(quadFace1, quadFace2);
             if (quad !== undefined) {
                 quads.push(quad);
-                foundQuad = true;
+                quadFaces.push(quadFace1, quadFace2);
                 break;
             }
         }
-        if (foundQuad) {
-            faces.splice(faces.indexOf(quadFace1), 1);
-            faces.splice(faces.indexOf(quadFace2), 1);
-            i -= 2;
+    }
+
+    quadFaces.forEach(face => faces.splice(faces.indexOf(face), 1));
+
+    let cubes = [];
+    for (let i = 0; i < quads.length; i++) {
+        let vertexIndexes = quads[i].vertexIndexes;
+        let connectedQuad = quads[i];
+        let foundConnectedQuad = false;
+        for (let j = i + 1; j < quads.length; j++) {
+            let otherVertexIndexes = quads[j].vertexIndexes;
+            let connectedIndexes = vertexIndexes.filter(index => otherVertexIndexes.includes(index));
+            if (connectedIndexes.length === 2) {
+                connectedQuad = quads[j];
+                foundConnectedQuad = true;
+                break;
+            }
+        }
+
+        if (foundConnectedQuad === false) {
             continue;
         }
+
+        let combinedVertexIndexes = [...new Set([...vertexIndexes, ...connectedQuad.vertexIndexes])];
+        let indexToConnectionNumberMap = {};
+        let connectedQuads = [];
+        let connectedQuadIndexes = [];
+
+        for (let j = i; j < quads.length; j++) {
+            let connectedIndexes = quads[j].vertexIndexes.filter(index => combinedVertexIndexes.includes(index));
+            if (connectedIndexes.length >= 2) {
+                connectedQuads.push(quads[j]);
+                connectedQuadIndexes.push(j);
+                quads[j].vertexIndexes.forEach(index => {
+                    indexToConnectionNumberMap[index] = (indexToConnectionNumberMap[index] + 1) || 1;
+                });
+            }
+        }
+
+        let vertexConnectionNumbers = Object.values(indexToConnectionNumberMap);
+
+        let isCube = vertexConnectionNumbers.length === 8 && vertexConnectionNumbers.every(number => number === 3);
+        if (isCube) {
+            cubes.push(connectedQuads);
+        }
+    }
+
+    cubes.forEach(cubeFaces => {
+        cubeFaces.forEach(face => {
+            quads.splice(quads.indexOf(face), 1);
+        });
+    });
+
+    for (let i = 0; i < cubes.length; i++) {
+        let firstSideQuad = cubes[i][0];
+        objects.push({
+            type: "cube",
+            position: convertToGamePosition(firstSideQuad.vertices[0]),
+            rotation: getFaceGameRotation(firstSideQuad, 0),
+            size: getCubeGameSize(cubes[i])
+        });
     }
 
     for (let i = 0; i < quads.length; i++) {

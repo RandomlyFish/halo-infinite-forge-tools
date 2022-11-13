@@ -77,11 +77,11 @@ export const config = {
                     enterKeys: [],
                     executeKeys: [
                         "s", "s", "s", "s", // Go down to size X
-                        "Enter", "{6}", "Enter", "s", "Enter", "{7}", "Enter", // Enter size (skipping Z)
-                        "s", "s", "s", "s", "s", // Go down to position X
+                        "Enter", "{6}", "Enter", "s", "Enter", "{7}", "Enter", "s", "Enter", "{8}", "Enter", // Enter size
+                        "s", "s", "s", "s", // Go down to position X
                         "Enter", "{0}", "Enter", "s", "Enter", "{1}", "Enter", "s", "Enter", "{2}", "Enter", // Enter position
                         "s", "s", // Go down to rotation Yaw
-                        "Enter", "{5}", "Enter", "s", "Enter", "{4}", "Enter", "s", "Enter", "{3}", "Enter", // Enter rotation
+                        "Enter", "{5}", "Enter", "s", "Enter", "{4}", "Enter", "s", "Enter", "{3}", "Enter", "w", "w", "Enter", "{5}", "Enter", // Enter rotation (with yaw set twice, to fix edge cases)
                         "PgUp" // Go back to top
                     ],
                     exitKeys: []

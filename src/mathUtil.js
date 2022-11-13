@@ -209,6 +209,21 @@ export class MathUtil {
     }
 
     /** 
+     * Returns a new vector with x, y and z at the average value of each provided vector
+     * 
+     * @param {{x: number, y: number, z: number}[]} vectors
+     */
+    static averageVector(vectors) {
+        let averageVector = { x: 0, y: 0, z: 0 };
+        vectors.forEach(vector => {
+            averageVector.x += vector.x / vectors.length;
+            averageVector.y += vector.y / vectors.length;
+            averageVector.z += vector.z / vectors.length;
+        });
+        return averageVector;
+    }
+
+    /** 
      * From: http://answers.unity3d.com/questions/467614/what-is-the-source-code-of-quaternionlookrotation.html
      * 
      * Gets the required quaternion angle to rotate an object so that it's facing in the forward direction, with it's up along the up direction

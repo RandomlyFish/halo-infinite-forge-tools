@@ -11,9 +11,9 @@ Note: this is work in progress. The goal is to create an executable program to m
 
 ## How to generate the macro
 1. Open the directory from step 1 of Setup, in the terminal
-2. Run the following command: npm start model=quad
+2. Run the following command: npm start model=test
 
-To use a different file in the input folder, change 'quad' to the name of the file you want to use
+To use a different file in the input folder, change 'test' to the name of the file you want to use
 
 ## How to use the macro
 The macro is just a sequence of different keyboard keys, it has no information about the state of the game. So, before running the macro, the forge menu has to be in the correct state.
