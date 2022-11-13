@@ -270,14 +270,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {0 Down} 
+            Send {3 Down} 
             Sleep, 1 
-            Send {0 Up} 
+            Send {3 Up} 
             Sleep, 1 
             
-            Send {4 Down} 
+            Send {1 Down} 
             Sleep, 1 
-            Send {4 Up} 
+            Send {1 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -296,9 +296,9 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {6 Down} 
+            Send {7 Down} 
             Sleep, 1 
-            Send {6 Up} 
+            Send {7 Up} 
             Sleep, 1 
             
             Send {. Down} 
@@ -362,9 +362,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -398,9 +403,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {9 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -470,9 +480,24 @@ Sleep, 50
             Send {3 Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {2 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -496,9 +521,9 @@ Sleep, 50
             Send {2 Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {4 Up} 
             Sleep, 1 
             
             Send {. Down} 
@@ -511,9 +536,9 @@ Sleep, 50
             Send {2 Up} 
             Sleep, 1 
             
-            Send {4 Down} 
+            Send {2 Down} 
             Sleep, 1 
-            Send {4 Up} 
+            Send {2 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -531,16 +556,6 @@ Sleep, 50
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
             
             Send {0 Down} 
             Sleep, 1 
@@ -614,14 +629,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {3 Down} 
+            Send {0 Down} 
             Sleep, 1 
-            Send {3 Up} 
+            Send {0 Up} 
             Sleep, 1 
             
-            Send {6 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {6 Up} 
+            Send {4 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -650,14 +665,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {0 Down} 
+            Send {3 Down} 
             Sleep, 1 
-            Send {0 Up} 
+            Send {3 Up} 
             Sleep, 1 
             
-            Send {4 Down} 
+            Send {1 Down} 
             Sleep, 1 
-            Send {4 Up} 
+            Send {1 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -706,9 +721,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -742,9 +762,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {9 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -799,1011 +824,15 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
             Send {1 Down} 
             Sleep, 1 
             Send {1 Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {7 Down} 
-            Sleep, 1 
-            Send {7 Up} 
-            Sleep, 1 
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
             Sleep, 1 
             
             Send {3 Down} 
             Sleep, 1 
             Send {3 Up} 
             Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
             
             Send {7 Down} 
             Sleep, 1 
@@ -1815,91 +844,9 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {0 Down} 
+            Send {8 Down} 
             Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
+            Send {8 Up} 
             Sleep, 1 
             
             Send {1 Down} 
@@ -1907,21 +854,6 @@ Sleep, 50
             Send {1 Up} 
             Sleep, 1 
             
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
 Sleep, 50
             Send {Enter Down} 
             Sleep, 1 
@@ -1937,92 +869,10 @@ Sleep, 50
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
             
             Send {0 Down} 
             Sleep, 1 
             Send {0 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -2046,9 +896,9 @@ Sleep, 50
             Send {2 Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {4 Up} 
             Sleep, 1 
             
             Send {. Down} 
@@ -2061,1896 +911,11 @@ Sleep, 50
             Send {2 Up} 
             Sleep, 1 
             
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {7 Down} 
-            Sleep, 1 
-            Send {7 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {7 Down} 
-            Sleep, 1 
-            Send {7 Up} 
-            Sleep, 1 
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {9 Down} 
-            Sleep, 1 
-            Send {9 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {Escape Down} 
-            Sleep, 1 
-            Send {Escape Up} 
-            Sleep, 50
-            
-                Send {Ctrl Down}
-                Send {d Down}
-Sleep, 1
-                Send {Ctrl Up}
-                Send {d Up}
-Sleep, 50
-            Send {r Down} 
-            Sleep, 1 
-            Send {r Up} 
-            Sleep, 50
-            
-            Send {PgUp Down} 
-            Sleep, 1 
-            Send {PgUp Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {7 Down} 
-            Sleep, 1 
-            Send {7 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
             Send {2 Down} 
             Sleep, 1 
             Send {2 Up} 
             Sleep, 1 
             
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {2 Down} 
-            Sleep, 1 
-            Send {2 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
-            
 Sleep, 50
             Send {Enter Down} 
             Sleep, 1 
@@ -4008,24 +973,9 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {6 Down} 
+            Send {9 Down} 
             Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {3 Down} 
-            Sleep, 1 
-            Send {3 Up} 
-            Sleep, 1 
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
+            Send {9 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -4044,19 +994,14 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {7 Down} 
+            Send {9 Down} 
             Sleep, 1 
-            Send {7 Up} 
+            Send {9 Up} 
             Sleep, 1 
             
             Send {. Down} 
             Sleep, 1 
             Send {. Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
             Sleep, 1 
             
             Send {4 Down} 
@@ -4064,55 +1009,9 @@ Sleep, 50
             Send {4 Up} 
             Sleep, 1 
             
-Sleep, 50
-            Send {Enter Down} 
+            Send {9 Down} 
             Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
+            Send {9 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -4126,36 +1025,20 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
-            Send {Enter Down} 
+            Send {s Down} 
             Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
+            Send {s Up} 
+            Sleep, 1
             
-            Send {- Down} 
+            Send {s Down} 
             Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
             
-            Send {4 Down} 
+            Send {s Down} 
             Sleep, 1 
-            Send {4 Up} 
-            Sleep, 1 
-            
-            Send {. Down} 
-            Sleep, 1 
-            Send {. Up} 
-            Sleep, 1 
-            
-            Send {5 Down} 
-            Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
+            Send {s Up} 
+            Sleep, 1
             
             Send {s Down} 
             Sleep, 1 
@@ -4166,16 +1049,6 @@ Sleep, 50
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
-            
-            Send {6 Down} 
-            Sleep, 1 
-            Send {6 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
-            Sleep, 1 
             
             Send {0 Down} 
             Sleep, 1 
@@ -4193,34 +1066,86 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
             Send {Enter Down} 
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
-            
-            Send {- Down} 
-            Sleep, 1 
-            Send {- Up} 
-            Sleep, 1 
             
             Send {1 Down} 
             Sleep, 1 
             Send {1 Up} 
             Sleep, 1 
             
-            Send {3 Down} 
+            Send {8 Down} 
             Sleep, 1 
-            Send {3 Up} 
+            Send {8 Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+Sleep, 50
+            Send {Enter Down} 
             Sleep, 1 
-            Send {5 Up} 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -4265,14 +1190,9 @@ Sleep, 50
             Send {1 Up} 
             Sleep, 1 
             
-            Send {5 Down} 
+            Send {8 Down} 
             Sleep, 1 
-            Send {5 Up} 
-            Sleep, 1 
-            
-            Send {4 Down} 
-            Sleep, 1 
-            Send {4 Up} 
+            Send {8 Up} 
             Sleep, 1 
             
             Send {. Down} 
@@ -4280,14 +1200,14 @@ Sleep, 50
             Send {. Up} 
             Sleep, 1 
             
-            Send {7 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {7 Up} 
+            Send {4 Up} 
             Sleep, 1 
             
-            Send {6 Down} 
+            Send {3 Down} 
             Sleep, 1 
-            Send {6 Up} 
+            Send {3 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -4352,6 +1272,27 @@ Sleep, 50
             Send {9 Up} 
             Sleep, 1 
             
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
             Send {. Down} 
             Sleep, 1 
             Send {. Up} 
@@ -4378,10 +1319,35 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
             Send {Enter Down} 
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
             
             Send {9 Down} 
             Sleep, 1 
@@ -4399,26 +1365,6 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
             Send {Enter Down} 
             Sleep, 1 
             Send {Enter Up} 
@@ -4427,27 +1373,6 @@ Sleep, 50
             Send {9 Down} 
             Sleep, 1 
             Send {9 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -4476,6 +1401,32 @@ Sleep, 50
             Send {0 Up} 
             Sleep, 1 
             
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
             Send {0 Down} 
             Sleep, 1 
             Send {0 Up} 
@@ -4492,25 +1443,10 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
             Send {Enter Down} 
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
             
             Send {0 Down} 
             Sleep, 1 
@@ -4532,6 +1468,11 @@ Sleep, 50
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
             
             Send {1 Down} 
             Sleep, 1 
@@ -4564,6 +1505,187 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
             Send {s Down} 
             Sleep, 1 
             Send {s Up} 
@@ -4583,6 +1705,48 @@ Sleep, 50
             Sleep, 1 
             Send {8 Up} 
             Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
             
             Send {0 Down} 
             Sleep, 1 
@@ -4651,6 +1815,276 @@ Sleep, 50
             Send {9 Up} 
             Sleep, 1 
             
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
             Send {. Down} 
             Sleep, 1 
             Send {. Up} 
@@ -4677,10 +2111,283 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
             Send {Enter Down} 
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
             
             Send {9 Down} 
             Sleep, 1 
@@ -4811,10 +2518,26 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {9 Down} 
+            Send {0 Down} 
             Sleep, 1 
-            Send {9 Up} 
+            Send {0 Up} 
             Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
             
             Send {0 Down} 
             Sleep, 1 
@@ -4860,37 +2583,6 @@ Sleep, 50
             Send {3 Down} 
             Sleep, 1 
             Send {3 Up} 
-            Sleep, 1 
-            
-Sleep, 50
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {Enter Down} 
-            Sleep, 1 
-            Send {Enter Up} 
-            Sleep, 50
-            
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
-            Send {0 Down} 
-            Sleep, 1 
-            Send {0 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -5222,16 +2914,6 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {1 Down} 
-            Sleep, 1 
-            Send {1 Up} 
-            Sleep, 1 
-            
-            Send {8 Down} 
-            Sleep, 1 
-            Send {8 Up} 
-            Sleep, 1 
-            
             Send {0 Down} 
             Sleep, 1 
             Send {0 Up} 
@@ -5499,14 +3181,14 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {1 Down} 
+            Send {- Down} 
             Sleep, 1 
-            Send {1 Up} 
+            Send {- Up} 
             Sleep, 1 
             
-            Send {3 Down} 
+            Send {4 Down} 
             Sleep, 1 
-            Send {3 Up} 
+            Send {4 Up} 
             Sleep, 1 
             
             Send {5 Down} 
@@ -5551,9 +3233,9 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
-            Send {1 Down} 
+            Send {2 Down} 
             Sleep, 1 
-            Send {1 Up} 
+            Send {2 Up} 
             Sleep, 1 
             
             Send {5 Down} 
@@ -5561,9 +3243,375 @@ Sleep, 50
             Send {5 Up} 
             Sleep, 1 
             
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
             Send {4 Down} 
             Sleep, 1 
             Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
             Sleep, 1 
             
             Send {. Down} 
@@ -5576,9 +3624,286 @@ Sleep, 50
             Send {7 Up} 
             Sleep, 1 
             
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
             Send {6 Down} 
             Sleep, 1 
             Send {6 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -5653,6 +3978,88 @@ Sleep, 50
             Send {4 Up} 
             Sleep, 1 
             
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
             Send {9 Down} 
             Sleep, 1 
             Send {9 Up} 
@@ -5674,9 +4081,70 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
             Send {9 Down} 
             Sleep, 1 
             Send {9 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -5695,25 +4163,20 @@ Sleep, 50
             Send {s Up} 
             Sleep, 1
             
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
-            Send {s Down} 
-            Sleep, 1 
-            Send {s Up} 
-            Sleep, 1
-            
             Send {Enter Down} 
             Sleep, 1 
             Send {Enter Up} 
             Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
             
             Send {0 Down} 
             Sleep, 1 
@@ -5736,6 +4199,201 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
             Send {1 Down} 
             Sleep, 1 
             Send {1 Up} 
@@ -5744,6 +4402,27 @@ Sleep, 50
             Send {8 Down} 
             Sleep, 1 
             Send {8 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
             Sleep, 1 
             
 Sleep, 50
@@ -5829,6 +4508,27 @@ Sleep, 50
             Send {Enter Up} 
             Sleep, 50
             
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
             Send {1 Down} 
             Sleep, 1 
             Send {1 Up} 
@@ -5852,6 +4552,2752 @@ Sleep, 50
             Send {3 Down} 
             Sleep, 1 
             Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {3 Down} 
+            Sleep, 1 
+            Send {3 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {9 Down} 
+            Sleep, 1 
+            Send {9 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {Escape Down} 
+            Sleep, 1 
+            Send {Escape Up} 
+            Sleep, 50
+            
+                Send {Ctrl Down}
+                Send {d Down}
+Sleep, 1
+                Send {Ctrl Up}
+                Send {d Up}
+Sleep, 50
+            Send {r Down} 
+            Sleep, 1 
+            Send {r Up} 
+            Sleep, 50
+            
+            Send {PgUp Down} 
+            Sleep, 1 
+            Send {PgUp Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {- Down} 
+            Sleep, 1 
+            Send {- Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {2 Down} 
+            Sleep, 1 
+            Send {2 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {7 Down} 
+            Sleep, 1 
+            Send {7 Up} 
+            Sleep, 1 
+            
+            Send {4 Down} 
+            Sleep, 1 
+            Send {4 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {5 Down} 
+            Sleep, 1 
+            Send {5 Up} 
+            Sleep, 1 
+            
+            Send {. Down} 
+            Sleep, 1 
+            Send {. Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+            Send {6 Down} 
+            Sleep, 1 
+            Send {6 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {1 Down} 
+            Sleep, 1 
+            Send {1 Up} 
+            Sleep, 1 
+            
+            Send {8 Down} 
+            Sleep, 1 
+            Send {8 Up} 
+            Sleep, 1 
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
+            Sleep, 1 
+            
+Sleep, 50
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {s Down} 
+            Sleep, 1 
+            Send {s Up} 
+            Sleep, 1
+            
+            Send {Enter Down} 
+            Sleep, 1 
+            Send {Enter Up} 
+            Sleep, 50
+            
+            Send {0 Down} 
+            Sleep, 1 
+            Send {0 Up} 
             Sleep, 1 
             
 Sleep, 50

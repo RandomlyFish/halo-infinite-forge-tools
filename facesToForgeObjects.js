@@ -18,24 +18,6 @@ const convertToGamePosition = (vector) => {
 /** @param {{ x: number; y: number; z: number }} vector */
 const convertToGameRotation = (vector) => {
     return {
-        x: MathUtil.normalizeAngle(round(-vector.z)),
-        y: MathUtil.normalizeAngle(round(vector.x)),
-        z: MathUtil.normalizeAngle(round(vector.y))
-    }
-}
-
-/** @param {{ x: number; y: number; z: number }} vector */
-const convertToGameRotation2 = (vector) => {
-    return {
-        x: MathUtil.normalizeAngle(round(-vector.y)),
-        y: MathUtil.normalizeAngle(round(vector.z)),
-        z: MathUtil.normalizeAngle(round(vector.x))
-    }
-}
-
-/** @param {{ x: number; y: number; z: number }} vector */
-const convertToGameRotation3 = (vector) => {
-    return {
         x: MathUtil.normalizeAngle(round(vector.z)),
         y: -MathUtil.normalizeAngle(round(vector.x)),
         z: MathUtil.normalizeAngle(round(vector.y))
@@ -66,7 +48,7 @@ export const facesToForgeObjects = (faces, forceRightSided = false) => {
         for (let j = 0; j < vertexCount; j++) {
             let previousIndex = (vertexCount + j - 1) % vertexCount;
             let nextIndex = (vertexCount + j + 1) % vertexCount;
-            let angle = MathUtil.angleBetween3DCoords(face.vertices[previousIndex], face.vertices[j], face.vertices[nextIndex]);
+            let angle = MathUtil.getCornerAngle(face.vertices[previousIndex], face.vertices[j], face.vertices[nextIndex]);
 
             angles.push(angle);
 
@@ -74,33 +56,15 @@ export const facesToForgeObjects = (faces, forceRightSided = false) => {
                 isRightAngled = true;
                 let forward = MathUtil.getDirectionBetweenVectors(face.vertices[j], face.vertices[nextIndex]);
                 let lookRotation = MathUtil.lookRotation(forward, face.normal);
-                // console.log("Look Rotation:", lookRotation);
-                // console.log("angle a:", MathUtil.quaternionToEulerAngles(lookRotation));
-                // console.log("angle b:", MathUtil.quaternionToXYZ(lookRotation));
-                // console.log("angle c:", MathUtil.quaternionToEulerAngles2(lookRotation));
-                // console.log("angle d:", MathUtil.quaternionToYXZ(lookRotation));
-
-                // let angle = convertToGameRotation(MathUtil.quaternionToEulerAngles(lookRotation));
-                // if (angle.x !== 0 && angle.y !== 0 && angle.z !== 0) {
-                //     angle = convertToGameRotation2(MathUtil.quaternionToXYZ(lookRotation));
-                // }
-
                 let angle = MathUtil.quaternionToYXZ(lookRotation);
 
                 let position = convertToGamePosition(face.vertices[j]);
-                let rotation = convertToGameRotation3(angle);
+                let rotation = convertToGameRotation(angle);
                 let size = convertToGameSize({
-                    x: MathUtil.getDistanceBetweenVertices(face.vertices[j], face.vertices[previousIndex]),
+                    x: MathUtil.getDistanceBetweenVectors(face.vertices[j], face.vertices[previousIndex]),
                     y: 0,
-                    z: MathUtil.getDistanceBetweenVertices(face.vertices[j], face.vertices[nextIndex])
+                    z: MathUtil.getDistanceBetweenVectors(face.vertices[j], face.vertices[nextIndex])
                 });
-
-                // console.log("picked rotation:", rotation);
-
-                // TODO: Remove this if not needed for upside down polygons
-                // if (face.normal.y < 0) {
-                //     rotation.y = MathUtil.normalizeAngle(180 - rotation.y);
-                // }
 
                 objects.push({
                     position,
@@ -121,7 +85,7 @@ export const facesToForgeObjects = (faces, forceRightSided = false) => {
 
         for (let j = 0; j < vertexCount; j++) {
             let nextIndex = (vertexCount + j + 1) % vertexCount;
-            let length = MathUtil.getDistanceBetweenVertices(face.vertices[j], face.vertices[nextIndex]);
+            let length = MathUtil.getDistanceBetweenVectors(face.vertices[j], face.vertices[nextIndex]);
             lengths.push(length);
             if (length > longestSideLength) {
                 longestSideLength = length;
@@ -142,20 +106,12 @@ export const facesToForgeObjects = (faces, forceRightSided = false) => {
         /** @type {Polygon} */
         let rightFace = JSON.parse(JSON.stringify(face));
 
-        // console.log()
-        // console.log("Normal of face:", face.normal);
-        // console.log(leftFace.normal);
-        // console.log(rightFace.normal);
-        // console.log("vertex index: " + longestSideIndex);
-
         leftFace.vertices[nextVertexIndex] = midPointVertex;
         rightFace.vertices[longestSideIndex] = midPointVertex;
 
         let leftAndRightObjects = facesToForgeObjects([leftFace, rightFace], true);
 
         objects = [...objects, ...leftAndRightObjects];
-
-        // console.log(leftAndRightObjects[0].rotation);
     }
 
     return objects;
