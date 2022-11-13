@@ -30,7 +30,9 @@ let faces = parseObj(modelPath);
 console.log("Total faces:", faces.length);
 let objects = facesToForgeObjects(faces);
 console.log("Total objects:", objects.length);
-console.log("Estimated time to build (minutes):", (objects.length * 5) / 60);
+let estimatedTimeMiliseconds = (objects.length * 3.2) * 1000;
+let estimatedTimeHMS = new Date(estimatedTimeMiliseconds).toISOString().substr(11, 8);
+console.log("Estimated time to build (hms):", estimatedTimeHMS, "(with default key press delays)");
 
 let instructions = [];
 

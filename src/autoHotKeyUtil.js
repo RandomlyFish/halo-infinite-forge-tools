@@ -87,6 +87,16 @@ export class AutoHotKeyUtil {
         return output;
     }
 
+    static paste(string, { endDelay = 1 } = {}) {
+        let output = `
+        Clipboard := "${string}"
+        Send, ^v
+        Sleep, ${endDelay} 
+        `;
+
+        return output;
+    }
+
     /** 
      * Generates commands for a sequence of keys, where there's a different delay after each key press
      * 
@@ -119,7 +129,7 @@ export class AutoHotKeyUtil {
             if (key.includes("{")) {
                 let argumentIndex = parseInt(key.split("{")[1].split("}")[0]);
                 let argument = args[argumentIndex];
-                output += this.type(argument, { endDelay: 50 });
+                output += this.type(argument, { endDelay: 50 }); // It usee type instead of paste, as it's more reliable
                 continue;
             }
 
