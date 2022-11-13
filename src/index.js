@@ -103,6 +103,9 @@ console.log("Estimated time to build (minutes):", (objects.length * 5) / 60);
 
 let instructions = [];
 
+instructions.push("actionTree.menu");
+instructions.push("wait(2000)");
+
 for (let i = 0; i < objects.length; i++) {
     if (i === 0) {
         instructions.push("actionTree.menu.spawnPolygon");
@@ -113,12 +116,9 @@ for (let i = 0; i < objects.length; i++) {
 
     let obj = objects[i];
 
-    // instructions.push(`actionTree.menu.objectProperties.move(${obj.position.x},${obj.position.y},${obj.position.z})`);
-    // instructions.push(`actionTree.menu.objectProperties.rotate(${obj.rotation.x},${obj.rotation.y},${obj.rotation.z})`);
-    // instructions.push(`actionTree.menu.objectProperties.resizeXY(${obj.size.x},${obj.size.y})`);
-    if (Math.abs(obj.rotation.x) > 180 || Math.abs(obj.rotation.y) > 180 || Math.abs(obj.rotation.z) > 180) {
-        console.log(obj.rotation, " Is an invalid rotation");
-    }
+    // if (Math.abs(obj.rotation.x) > 180 || Math.abs(obj.rotation.y) > 180 || Math.abs(obj.rotation.z) > 180) {
+    //     console.log(obj.rotation, " Is an invalid rotation");
+    // }
     instructions.push(`actionTree.menu.objectProperties.transform(${obj.position.x},${obj.position.y},${obj.position.z},${obj.rotation.x},${obj.rotation.y},${obj.rotation.z},${obj.size.x},${obj.size.y},${obj.size.z})`);
 }
 
@@ -131,21 +131,27 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 `;
 
-fileData += AutoHotKeyUtil.sleep(3000);
+fileData += AutoHotKeyUtil.openWindow("Halo Infinite");
+fileData += AutoHotKeyUtil.sleep(1000);
 
 let currentPathActions = [actionTree];
 let currentPathNames = ["actionTree"];
 
 for (let i = 0; i < instructions.length; i++) {
     let instruction = instructions[i];
-    let executeKeyArgs = [];
+    let args = [];
 
     if (instruction.includes("(")) {
         let parts = instruction.split("(");
         instruction = parts[0];
         let argsString = parts[1];
         argsString = argsString.split(")")[0];
-        executeKeyArgs = argsString.split(",");
+        args = argsString.split(",");
+    }
+
+    if (instruction.startsWith("wait(")) {
+        fileData += AutoHotKeyUtil.sleep(args[0]);
+        continue;
     }
 
     let actionNames = instruction.split(".");
@@ -167,7 +173,7 @@ for (let i = 0; i < instructions.length; i++) {
         }
     }
 
-    fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, executeKeyArgs);
+    fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, args);
 }
 
 fs.writeFileSync("output/macro.ahk", fileData);

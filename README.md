@@ -25,8 +25,7 @@ The macro is just a sequence of different keyboard keys, it has no information a
 If done correctly, the scrollbar should be at the top of the 'object properties' tab when you switch to it, so that you see 'general' at the top and 'roll' at the bottom.
 
 4. Double click the 'macro.ahk' file in the output folder
-5. Click on the game before 3 seconds have passed
-6. Leave the game open and don't touch anything until it's done
+5. Leave the game open and don't touch anything until it's done
 
 By the time the macro is done, the forge menu will be reset to the correct state. So, unless you interact with the menu after it's done, you won't have to repeat step 1-3.
 

@@ -6,7 +6,16 @@ export class AutoHotKeyUtil {
      * @param {number} ms 
      */
     static sleep(ms) {
-        return "\n" + "Sleep, " + ms + "\n\n";
+        return "\n" + "Sleep, " + ms + "\n";
+    }
+
+    /**
+     * Generates a command which opens an existing window
+     * 
+     * @param {string} windowName 
+     */
+    static openWindow(windowName) {
+        return "\n" + "WinActivate, " + windowName + "\n";
     }
 
     /**
