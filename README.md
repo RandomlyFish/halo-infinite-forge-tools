@@ -33,7 +33,11 @@ By the time the macro is done, the forge menu will be reset to the correct state
 On the bottom right of the windows taskbar, in the popup menu left of the volume icon, you should see the AutoHotKey icon. Right click it and select Exit. Don't forget to reset the forge menu if you plan to run it again.
 
 ## How to configure key press delays
+If it starts doing unintended actions in the forge menu, you may need to increase the delay between key presses.
+
 In the 'src' folder, you will find 'config.js'. In that file, look for 'keyToDelayMap'. Each of those keys corresponds to an action in the forge menu. For example, the 'r' key toggles the menu, so if would like to increase the wait after it opens the forge menu, you can increase the value for that key.
+
+Once you have made changes, you will have to generate the macro again.
 
 ## Known issues
 * The time between key presses can sometimes be too short, causing unintended interactions in the forge menu
