@@ -59,6 +59,7 @@ export const parseObj = (file) => {
         faces.push({
             vertexIndexes,
             vertices: faceVertices,
+            normalIndex,
             normal: normals[normalIndex] // TODO: Calculate the normal instead, in case the index is not included
         });
     }

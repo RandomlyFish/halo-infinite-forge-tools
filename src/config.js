@@ -44,6 +44,11 @@ export const config = {
                 executeKeys: ["Enter", "r"],
                 exitKeys: ["Escape", "PgUp", "s", "s", "s", "s", "Enter", "PgUp"]
             },
+            spawnCube: {
+                enterKeys: ["PgDn", "w", "w", "w", "w", "Enter", "PgDn", "PgDn", "PgDn", "PgUp", "Enter", "PgDn"],
+                executeKeys: ["Enter", "r"],
+                exitKeys: ["PgUp", "Escape", "PgUp", "s", "s", "s", "s", "Enter", "PgUp"]
+            },
             objectProperties: {
                 enterKeys: ["e", "PgUp"],
                 executeKeys: [],

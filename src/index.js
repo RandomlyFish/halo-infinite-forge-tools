@@ -30,7 +30,7 @@ let faces = parseObj(modelPath);
 console.log("Total faces:", faces.length);
 let objects = facesToForgeObjects(faces);
 console.log("Total objects:", objects.length);
-let estimatedTimeMiliseconds = (objects.length * 3.2) * 1000;
+let estimatedTimeMiliseconds = (3 + objects.length * 3.2) * 1000;
 let estimatedTimeHMS = new Date(estimatedTimeMiliseconds).toISOString().substr(11, 8);
 console.log("Estimated time to build (hms):", estimatedTimeHMS, "(with default key press delays)");
 
@@ -40,8 +40,15 @@ instructions.push("actionTree.menu");
 instructions.push("wait(2000)");
 
 for (let i = 0; i < objects.length; i++) {
-    if (i === 0) {
-        instructions.push("actionTree.menu.spawnPolygon");
+    let objectTypeToActionMap = {
+        "cube": "actionTree.menu.spawnCube",
+        "polygon": "actionTree.menu.spawnPolygon"
+    }
+
+    let previousType = i > 0 ? objects[i - 1].type : "";
+
+    if (objects[i].type !== previousType) {
+        instructions.push(objectTypeToActionMap[objects[i].type]);
         instructions.push("actionTree.menu.objectProperties.resize(4,4,0)");
     } else {
         instructions.push("actionTree.menu.objectProperties.duplicate");
@@ -49,10 +56,9 @@ for (let i = 0; i < objects.length; i++) {
 
     let obj = objects[i];
 
-    // if (Math.abs(obj.rotation.x) > 180 || Math.abs(obj.rotation.y) > 180 || Math.abs(obj.rotation.z) > 180) {
-    //     console.log(obj.rotation, " Is an invalid rotation");
-    // }
-    instructions.push(`actionTree.menu.objectProperties.transform(${obj.position.x},${obj.position.y},${obj.position.z},${obj.rotation.x},${obj.rotation.y},${obj.rotation.z},${obj.size.x},${obj.size.y},${obj.size.z})`);
+    instructions.push(
+        `actionTree.menu.objectProperties.transform(${obj.position.x},${obj.position.y},${obj.position.z},${obj.rotation.x},${obj.rotation.y},${obj.rotation.z},${obj.size.x},${obj.size.y},${obj.size.z})`
+    );
 }
 
 instructions.push("actionTree");
