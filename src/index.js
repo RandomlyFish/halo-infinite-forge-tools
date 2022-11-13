@@ -1,7 +1,7 @@
 import fs from "fs";
 import { facesToForgeObjects } from "./facesToForgeObjects.js";
 import { AutoHotKeyUtil } from "./autoHotKeyUtil.js";
-import { readObj } from "./readObj.js";
+import { parseObj } from "./parseObj.js";
 import { config } from "./config.js";
 
 let commandLineArgumentsList = process.argv.slice(2);
@@ -26,7 +26,7 @@ if (fileExists === false) {
     process.exit(1);
 }
 
-let faces = readObj(modelPath);
+let faces = parseObj(modelPath);
 console.log("Total faces:", faces.length);
 let objects = facesToForgeObjects(faces);
 console.log("Total objects:", objects.length);

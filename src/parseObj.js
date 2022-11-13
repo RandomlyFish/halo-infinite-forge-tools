@@ -4,11 +4,14 @@ const VERTEX_PREFIX = "v ";
 const VERTEX_NORMAL_PREFIX = "vn ";
 const FACE_PREFIX = "f ";
 
-export const readObj = (fileName) => {
+/** 
+ * Takes an obj file and outputs information about each face
+ */
+export const parseObj = (file) => {
     let data = "";
 
     try {
-        data = fs.readFileSync(fileName, "utf8");
+        data = fs.readFileSync(file, "utf8");
     } catch (err) {
         console.error(err);
     }
@@ -53,18 +56,10 @@ export const readObj = (fileName) => {
 
         let faceVertices = vertexIndexes.map(index => vertices[index]);
 
-        let center = { x: 0, y: 0, z: 0 };
-        for (let j = 0; j < faceVertices.length; j++) {
-            center.x += faceVertices[j].x / faceVertices.length;
-            center.y += faceVertices[j].y / faceVertices.length;
-            center.z += faceVertices[j].z / faceVertices.length;
-        }
-
         faces.push({
             vertexIndexes,
             vertices: faceVertices,
-            normal: normals[normalIndex], // TODO: Calculate the normal instead, in case the index is not included
-            center
+            normal: normals[normalIndex] // TODO: Calculate the normal instead, in case the index is not included
         });
     }
 
