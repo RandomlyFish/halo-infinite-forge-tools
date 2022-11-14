@@ -129,21 +129,21 @@ const getRightAngledQuad = (face1, face2) => {
         return undefined;
     }
 
-    let face1UniqueVertexIndex = face1.vertexIndexes.findIndex(index => face2.vertexIndexes.includes(index) === false);
-    let face1PreviousVertex = getElementAtIndex(face1.vertices, face1UniqueVertexIndex - 1);
-    let face1NextVertex = getElementAtIndex(face1.vertices, face1UniqueVertexIndex + 1);
-    let face1CornerAngle = MathUtil.getCornerAngle(face1PreviousVertex, face1.vertices[face1UniqueVertexIndex], face1NextVertex);
+    let face1IndexOfUniqueVertex = face1.vertexIndexes.findIndex(index => face2.vertexIndexes.includes(index) === false);
+    let face1PreviousVertex = getElementAtIndex(face1.vertices, face1IndexOfUniqueVertex - 1);
+    let face1NextVertex = getElementAtIndex(face1.vertices, face1IndexOfUniqueVertex + 1);
+    let face1CornerAngle = MathUtil.getCornerAngle(face1PreviousVertex, face1.vertices[face1IndexOfUniqueVertex], face1NextVertex);
     face1CornerAngle = Math.round(face1CornerAngle.toFixed(2));
 
     if (face1CornerAngle !== 90) {
         return undefined;
     }
 
-    let face2UniqueVertexIndex = face2.vertexIndexes.findIndex(index => face1.vertexIndexes.includes(index) === false);
-    let face2PreviousVertex = getElementAtIndex(face2.vertices, face2UniqueVertexIndex - 1);
-    let face2NextVertex = getElementAtIndex(face2.vertices, face2UniqueVertexIndex + 1);
-    let face2CornerAngle = MathUtil.getCornerAngle(face2PreviousVertex, face2.vertices[face2UniqueVertexIndex], face2NextVertex);
-    face2CornerAngle = Math.round(face1CornerAngle.toFixed(2));
+    let face2IndexOfUniqueVertex = face2.vertexIndexes.findIndex(index => face1.vertexIndexes.includes(index) === false);
+    let face2PreviousVertex = getElementAtIndex(face2.vertices, face2IndexOfUniqueVertex - 1);
+    let face2NextVertex = getElementAtIndex(face2.vertices, face2IndexOfUniqueVertex + 1);
+    let face2CornerAngle = MathUtil.getCornerAngle(face2PreviousVertex, face2.vertices[face2IndexOfUniqueVertex], face2NextVertex);
+    face2CornerAngle = Math.round(face2CornerAngle.toFixed(2));
 
     if (face2CornerAngle !== 90) {
         return undefined;
@@ -157,12 +157,10 @@ const getRightAngledQuad = (face1, face2) => {
         vertexIndexToPositionMap[face2.vertexIndexes[i]] = face2.vertices[i];
     }
 
-    let vertexIndexes = [
-        face1.vertexIndexes[face1UniqueVertexIndex],
-        connectedVertexIndexes[0],
-        face2.vertexIndexes[face2UniqueVertexIndex],
-        connectedVertexIndexes[1]
-    ]
+    let face2UniqueVertexIndex = face2.vertexIndexes[face2IndexOfUniqueVertex];
+    let insertAtIndex = (face1IndexOfUniqueVertex + 2) % face1.vertices.length;
+    let vertexIndexes = [...face1.vertexIndexes];
+    vertexIndexes.splice(insertAtIndex, 0, face2UniqueVertexIndex);
 
     let vertices = vertexIndexes.map(index => vertexIndexToPositionMap[index]);
 
@@ -177,6 +175,16 @@ const getRightAngledQuad = (face1, face2) => {
 /** @param {Face[]} faces */
 export const facesToForgeObjects = (faces, forceRightSided = false) => {
     faces = [...faces];
+
+    // For debugging only
+    for (let i = 0; i < faces.length; i++) {
+        let wrongIndex = faces.findIndex((face, index) => {
+            return index !== i && face.vertexIndexes.every(vertexIndex => faces[i].vertexIndexes.includes(vertexIndex));
+        });
+        if (wrongIndex >= 0 && forceRightSided === false) {
+            console.log("Something is wrong", i, wrongIndex, faces[i].vertexIndexes, faces[wrongIndex].vertexIndexes, faces[0] === faces[1]);
+        }
+    }
 
     let objects = [];
 
@@ -196,7 +204,9 @@ export const facesToForgeObjects = (faces, forceRightSided = false) => {
         }
     }
 
-    quadFaces.forEach(face => faces.splice(faces.indexOf(face), 1));
+    quadFaces.forEach(face => {
+        faces.splice(faces.indexOf(face), 1);
+    });
 
     let cubes = [];
     for (let i = 0; i < quads.length; i++) {
