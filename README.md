@@ -42,19 +42,27 @@ Once you have made changes, you will have to generate the macro again.
 ## Command line arguments
 ### model (required)
 Used to specify the obj file to load, by name. 
+
 Example: model=test.
+
 This will make it read a file called test.obj in the input folder.
 
 ### chunks and chunk
 Used in combination for specifying how many objects to spawn in the generated macro.
+
 Example: chunks=4 chunk=1.
+
 That will make the macro spawn the first 25% of all objects.
+
 You should then increase chunk by 1 to spawn the next 25%.
 
 ### info
 Used to get position, rotation and scale information for objects, based on a known position.
+
 Example: info=0,0,0
+
 This will make it write information about any objects that will be placed at position 0 in x, y and z.
+
 Useful incase it messed up with the rotation or scale of an object.
 
 ## Known issues
