@@ -65,6 +65,11 @@ This will make it write information about any objects that will be placed at pos
 
 Useful incase it messed up with the rotation or scale of an object.
 
+### autoSave
+Used to make it save the map as soon as the macro is done.
+
+Example: autoSave=true
+
 ## Known issues
 * The time between key presses can sometimes be too short, causing unintended interactions in the forge menu. However, it can be configured
 * It currently doesn't work with model faces that uses more than 3 vertices
