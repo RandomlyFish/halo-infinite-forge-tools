@@ -172,7 +172,15 @@ const getRightAngledQuad = (face1, face2) => {
     };
 }
 
-/** @param {Face[]} faces */
+/** 
+ * @param {Face[]} faces 
+ * @returns {{ 
+ * type: string
+ * position: { x: number, y: number, z: number }
+ * rotation: { x: number, y: number, z: number }
+ * size: { x: number, y: number, z: number }
+ * }[]}
+ */
 export const facesToForgeObjects = (faces, forceRightSided = false) => {
     faces = [...faces];
 

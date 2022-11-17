@@ -17,6 +17,14 @@ if (commandLineArguments.model === undefined) {
     console.log("For example: 'npm start model=test' will use a file called test.obj in the input folder");
     process.exit(1);
 }
+if (commandLineArguments.chunks !== undefined && commandLineArguments.chunk === undefined) {
+    console.log("Unable to run script, 'chunks' was set, but not 'chunk'");
+    process.exit(1);
+}
+if (commandLineArguments.chunk !== undefined && commandLineArguments.chunks === undefined) {
+    console.log("Unable to run script, 'chunk' was set, but not 'chunks'");
+    process.exit(1);
+}
 
 let modelPath = "input/" + commandLineArguments.model.split(".")[0] + ".obj";
 let fileExists = fs.existsSync(modelPath, "utf8");
@@ -30,9 +38,36 @@ let faces = parseObj(modelPath);
 console.log("Total faces:", faces.length);
 let objects = facesToForgeObjects(faces);
 console.log("Total objects:", objects.length);
-let estimatedTimeMiliseconds = (3 + objects.length * 3.5) * 1000;
+
+let chunks = commandLineArguments.chunks || 1;
+let chunk = commandLineArguments.chunk || 1;
+let chunkStartIndex = Math.ceil((chunk - 1) * (objects.length / chunks));
+let chunkEndIndex = Math.ceil(chunk * (objects.length / chunks)) - 1;
+objects = objects.slice(chunkStartIndex, chunkEndIndex + 1);
+console.log(`objects in chunk: ${(chunkStartIndex + 1)} - ${(chunkEndIndex + 1)}`);
+
+let estimatedTimeMiliseconds = (3 + objects.length * 4) * 1000;
 let estimatedTimeHMS = new Date(estimatedTimeMiliseconds).toISOString().substr(11, 8);
 console.log("Estimated time to build (hms):", estimatedTimeHMS, "(with default key press delays)");
+
+if (commandLineArguments.info !== undefined) {
+    let parts = commandLineArguments.info.split(",");
+    let objectsAtPosition = objects.filter(object => {
+        let isSameX = Math.round(object.position.x) === Math.round(parseFloat(parts[0]));
+        let isSameY = Math.round(object.position.y) === Math.round(parseFloat(parts[1]));
+        let isSameZ = Math.round(object.position.z) === Math.round(parseFloat(parts[2]));
+        return isSameX && isSameY && isSameZ;
+    });
+    console.log(objectsAtPosition.map(object => {
+        let output = { ...object }
+        output.rotation = {
+            x_roll: object.rotation.x,
+            y_pitch: object.rotation.y,
+            z_yaw: object.rotation.z
+        }
+        return output;
+    }));
+}
 
 let instructions = [];
 
@@ -113,6 +148,10 @@ for (let i = 0; i < instructions.length; i++) {
     }
 
     fileData += AutoHotKeyUtil.pressKeySequence(currentPathActions[currentPathActions.length - 1].executeKeys, config.keyToDelayMap, args);
+}
+
+if (commandLineArguments.autoSave === "true") {
+    fileData += AutoHotKeyUtil.pressKeyCombination(["Ctrl", "s"]);
 }
 
 fs.writeFileSync("output/macro.ahk", fileData);
