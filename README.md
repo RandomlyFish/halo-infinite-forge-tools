@@ -18,16 +18,17 @@ To use a different file in the input folder, change 'test' to the name of the fi
 ## How to use the macro
 The macro is just a sequence of different keyboard keys, it has no information about the state of the game. So, before running the macro, the forge menu has to be in the correct state.
 
-1. Make sure that all the options on the 'object browser' tab are collapsed (the scrollbar should not be visible)
-2. Go to the object properties tab and expand 'general', 'object mode', 'transform', 'position' and 'rotation'
-3. Switch back to the 'object browser' tab
+1. Open the 'tool settings' menu and set 'movement direction' to 'world' and 'rotation pivot' to 'origin'
+2. Make sure that all the options on the 'object browser' tab are collapsed (the scrollbar should not be visible)
+3. Go to the object properties tab and expand 'general', 'object mode', 'transform', 'position' and 'rotation'
+4. Switch back to the 'object browser' tab
 
 If done correctly, the scrollbar should be at the top of the 'object properties' tab when you switch to it, so that you see 'general' at the top and 'roll' at the bottom.
 
 4. Double click the 'macro.ahk' file in the output folder
 5. Leave the game open and don't touch anything until it's done
 
-By the time the macro is done, the forge menu will be reset to the correct state. So, unless you interact with the menu after it's done, you won't have to repeat step 1-3.
+By the time the macro is done, the forge menu will be reset to the correct state. So, unless you interact with the menu after it's done, you won't have to repeat step 1-4.
 
 ## How to stop the macro
 On the bottom right of the windows taskbar, in the popup menu left of the volume icon, you should see the AutoHotKey icon. Right click it and select Exit. Don't forget to reset the forge menu if you plan to run it again.
