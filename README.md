@@ -40,6 +40,9 @@ In the 'src' folder, you will find 'config.js'. In that file, look for 'keyToDel
 Once you have made changes, you will have to generate the macro again.
 
 ## Command line arguments
+
+Here's an example of a command including all command line arguments: npm start model=test chunks=2 chunk=1 filter=-6.08,3,614.55 autoSave=true
+
 ### model (required)
 Used to specify the obj file to load, by name. 
 
@@ -56,14 +59,14 @@ That will make the macro spawn the first 25% of all objects.
 
 You should then increase chunk by 1 to spawn the next 25%.
 
-### info
-Used to get position, rotation and scale information for objects, based on a known position.
+### filter
+Used to filter out objects from the macro, keeping only objects at the provided position.
 
-Example: info=0,0,0
+Example: filter=0.1,2,3.4
 
-This will make it write information about any objects that will be placed at position 0 in x, y and z.
+This will make it keep any objects at position: x 0.1, y: 2 and z: 3.4
 
-Useful incase it messed up with the rotation or scale of an object.
+Useful incase it messed up with the rotation or size of an object.
 
 ### autoSave
 Used to make it save the map as soon as the macro is done.

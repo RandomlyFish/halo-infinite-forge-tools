@@ -44,20 +44,18 @@ let chunk = commandLineArguments.chunk || 1;
 let chunkStartIndex = Math.ceil((chunk - 1) * (objects.length / chunks));
 let chunkEndIndex = Math.ceil(chunk * (objects.length / chunks)) - 1;
 objects = objects.slice(chunkStartIndex, chunkEndIndex + 1);
-console.log(`objects in chunk: ${(chunkStartIndex + 1)} - ${(chunkEndIndex + 1)}`);
+console.log(`Objects in chunk: ${(chunkStartIndex + 1)} - ${(chunkEndIndex + 1)}`);
 
-let estimatedTimeMiliseconds = (3 + objects.length * 4) * 1000;
-let estimatedTimeHMS = new Date(estimatedTimeMiliseconds).toISOString().substr(11, 8);
-console.log("Estimated time to build (hms):", estimatedTimeHMS, "(with default key press delays)");
-
-if (commandLineArguments.info !== undefined) {
-    let parts = commandLineArguments.info.split(",");
+if (commandLineArguments.filter !== undefined) {
+    let parts = commandLineArguments.filter.split(",");
     let objectsAtPosition = objects.filter(object => {
         let isSameX = Math.round(object.position.x) === Math.round(parseFloat(parts[0]));
         let isSameY = Math.round(object.position.y) === Math.round(parseFloat(parts[1]));
         let isSameZ = Math.round(object.position.z) === Math.round(parseFloat(parts[2]));
         return isSameX && isSameY && isSameZ;
     });
+    objects = objectsAtPosition;
+    console.log("Selected objects from filter:");
     console.log(objectsAtPosition.map(object => {
         let output = { ...object }
         output.rotation = {
@@ -68,6 +66,10 @@ if (commandLineArguments.info !== undefined) {
         return output;
     }));
 }
+
+let estimatedTimeMiliseconds = (3 + objects.length * 4) * 1000;
+let estimatedTimeHMS = new Date(estimatedTimeMiliseconds).toISOString().substring(11, 19);
+console.log("Estimated time to build (hms):", estimatedTimeHMS, "(with default key press delays)");
 
 let instructions = [];
 
